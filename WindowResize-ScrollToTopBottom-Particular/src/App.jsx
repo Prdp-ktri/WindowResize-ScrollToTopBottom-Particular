@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import UseWindowResize from "./components/use-window-resize/index";
 import UseWindowResizeTest from "./components/use-window-resize/test";
+import ScrollToTopAndBottom from "./components/use-window-resize/Scroll-Top-Bottom";
+import ScrollToSection from "./components/scroll-to-particular-section/scroll-to-section";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,8 +28,10 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-      </div> 
-      <UseWindowResizeTest />
+      </div>
+      {/* <UseWindowResizeTest /> */}
+      {/* <ScrollToTopAndBottom /> */}
+      <ScrollToSection />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
