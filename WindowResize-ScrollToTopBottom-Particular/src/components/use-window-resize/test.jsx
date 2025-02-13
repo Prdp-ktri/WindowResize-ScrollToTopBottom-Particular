@@ -6,7 +6,7 @@ export default function UseWindowResizeTest() {
 
   return (
     <div>
-      <h1>Use Window resize Hook</h1>
+      <h3>Use Window resize Hook</h3>
       <p>Width is {width}</p>
       <p>Height is {height}</p>
     </div>
